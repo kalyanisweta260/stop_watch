@@ -1,0 +1,89 @@
+/* Material Design style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+/* Stopwatch container */
+.stopwatch-container {
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Stopwatch display */
+.time-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.start {
+    background-color: #4caf50;
+    color: white;
+}
+
+.start:hover {
+    background-color: #45a049;
+}
+
+.reset {
+    background-color: #f44336;
+    color: white;
+}
+
+.reset:hover {
+    background-color: #e53935;
+}
+
+.lap {
+    background-color: #2196f3;
+    color: white;
+}
+
+.lap:hover {
+    background-color: #1976d2;
+}
+
+/* Lap list */
+.lap-section {
+    margin-top: 20px;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lapList li {
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: left;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
